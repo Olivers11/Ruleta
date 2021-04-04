@@ -12,7 +12,7 @@ document.getElementById('btn_').addEventListener('click', () =>{
     var num = getRandomNum();
     for(var i = 0; i < num; i++){
         img.style.transform = 'rotate('+i+'deg)';
-        img.style.transition = '3s';
+        img.style.transition = '1s';
     }
     console.log(degree);
 
